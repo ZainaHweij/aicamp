@@ -1,9 +1,7 @@
+import { Hero } from "@/components/Hero";
+
 const Index = () => {
-  return (
-    <div className="w-full overflow-x-hidden">
-      <h1>hi</h1>
-    </div>
-  );
+  return <Hero />;
 };
 
 export default Index;
